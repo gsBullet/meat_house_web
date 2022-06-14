@@ -2,6 +2,7 @@
 
 .lag_country_part {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 48px 0;
