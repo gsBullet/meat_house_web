@@ -1,0 +1,245 @@
+/* *************header css start **************/
+
+.lag_country_part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.language {
+    display: flex;
+    justify-content: center;
+}
+
+.language .selected_flag {
+    font-size: 20px;
+}
+
+.language .selected_flag img {
+    width: calc(var(--width)*12%);
+}
+
+.language .flag_list {
+    position: relative;
+}
+
+.language .flag_list .flag_list_trigger {
+    cursor: pointer;
+}
+
+.language .flag_list .selected_flag img {
+    width: calc(var(--width)*12%);
+}
+
+.language .flag_list .flag_list_images {
+    font-size: 20px;
+    position: absolute;
+    top: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition-duration: .3s;
+}
+
+.language .flag_list:hover .flag_list_images {
+    opacity: 1;
+    visibility: visible;
+}
+
+.language .flag_list .flag_list_images li {
+    cursor: pointer;
+}
+
+.language .flag_list .flag_list_images li img {
+    width: calc(var(--width)*12%);
+}
+
+.language_country_name select {
+    border: none;
+    margin-left: 55px;
+    font-size: 13px;
+    color: var(--brand);
+    font-family: var(--circular);
+}
+
+.logo {
+    /* border: var(--border); */
+    text-align: center;
+    padding-top: 15px;
+}
+
+.header_right_part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--circular);
+    color: var(--brand);
+    padding: 41px 0;
+}
+
+.header_right_part .card {
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+.header_right_part .card span {
+    background-color: var(--brand);
+    border-radius: 50%;
+    color: var(--white);
+    font-size: 10px;
+    position: absolute;
+    top: 40px;
+    padding: 3px;
+}
+
+.header_right_part .total_price {
+    font-size: 14px;
+    width: 78px;
+    padding: 10px;
+    background-color: #f3f3f3;
+    font-family: var(--circular);
+}
+
+.header_right_part .login a {
+    font-size: 18px;
+}
+
+.header_right_part .login a span {
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+/****** header css end ************/
+
+/**************************************/
+
+
+/*********navbar start************** */
+/* nav{
+    background-color: var(--brand);
+} */
+.nav_links{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--brand);
+    color: var(--white);
+    font-family: var(--circular);
+    align-content: center;
+    justify-content: center;
+}
+/* .nav_links li{
+    
+} */
+
+.nav_links li a{
+    padding: 22px 0 37px;
+    margin: 0 25px;
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.search_box{
+    background-color: var(--brand);
+    font-family: var(--circular);
+    padding: 9.5px 0 ;
+
+}
+.search_box form{
+    position: relative;
+}
+.search_box form button{
+    font-size: 18px;
+    position: absolute;
+    top: 35%;
+    background-color: transparent;
+    right: 100px;
+    border: none;
+    color: var(--brand);
+}
+
+input[type=text]{
+    width: 307px;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border: 1px solid rgb(45, 8, 194);
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+
+/* ********************************* */
+/*            navbar end            */
+/* ********************************** */
+
+
+/* ********************************* */
+/*            banner part start       */
+/* ********************************** */
+
+.banner{
+    
+    background-image: url('../img/images/banner.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+/* .banner_content{} */
+.banner_content h5{
+    font-size: 14px;
+    color: var(--brand);
+    font-family: var(--circular);
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    padding-top: 135px;
+    border: 1px solid var(--brand);
+}
+.banner_content .main_heading{
+    background-image: url('../img/images/fancy-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 10px;
+    border: 1px solid var(--brand);
+}
+.banner_content .main_heading h1{
+    font-size: 60px;
+    color: var(--white);
+    font-weight: 900;
+    font-family: var(--playfair);
+    text-align: center;
+}
+/* .banner_content .main_heading .circle_text{} */
+
+.banner_content p{
+    font-size: 14px;
+    line-height: 26px;
+    color: var(--brand);
+    font-family: var(--circular);
+    text-align: center;
+    padding-bottom: 10px;
+    border: 1px solid var(--brand);
+}
+.banner_content h4{
+    font-size: 13px;
+    color: var(--brand);
+    font-family: var(--circular);
+    text-align: center;
+    padding-bottom: 10px;
+    border: 1px solid var(--brand);
+}
+.banner_content h4 span{
+    font-size: 24px;
+    line-height: 29px;
+    color: #e75945;
+    font-weight: bold;
+    font-family: var(--circular);
+    text-align: center;
+}
+.banner_content .btn_center{
+    text-align: center;
+}
+
+/* ********************************* */
+/*            banner part end         */
+/* ********************************** */

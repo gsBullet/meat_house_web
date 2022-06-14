@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Playfair Display' ;
+    src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: 'Circular Std';
+    src: url(../fonts/Circular_Std_Book.ttf);
+}
+:root{
+    /* color variable */
+    --brand: #0d354f;
+    --orange: #dec7b0;
+    --paragraph_color: #727272;
+    --white: #ffffff;
+    --off_white: #A6AEB5;
+
+    /* font variable  */
+    --circular: 'Circular Std';
+    --playfiar: 'Playfair Display';
+
+    /* border  */
+    --border: 1px solid red;
+
+}
+.section_heading_title_default{
+    font-size: 13px;
+    color: var(--orange);
+    font-family: var(--circular);
+    text-transform: uppercase;
+ 
+}
+.section_heading_default{
+    font-size: 50px;
+    line-height: 52px;
+    color: var(--brand);
+    font-weight: 900;
+    font-family: var(--playfiar);
+    text-align: center;
+}
+
+p{
+    font-size: 14px;
+    line-height: 26px;
+    color: var(--paragraph_color);
+    font-family: var(--circular);
+}
+.btn_outline{
+    
+    border: 1px solid var(--brand);
+    color: var(--brand);
+    font-family: var(--circular);
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 15px 45px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+.btn_outline::before{
+    content: '';
+    position: absolute;
+    background: var(--brand);
+    height: 16px;
+    width: 13px;
+    bottom: -6px;
+    left: -6px;
+    transform: rotate(135deg);
+}
+.btn_fill{
+    background: var(--brand);
+    color: var(--white);
+}
