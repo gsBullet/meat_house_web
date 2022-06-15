@@ -119,10 +119,14 @@
 /* nav{
     background-color: var(--brand);
 } */
+.nav_background{
+    width: calc(var(--width)*12%);
+    background-color: var(--brand);
+}
 .nav_links{
+    
     display: flex;
     flex-wrap: wrap;
-    background-color: var(--brand);
     color: var(--white);
     font-family: var(--circular);
     align-content: center;
@@ -140,10 +144,8 @@
     font-size: 14px;
 }
 .search_box{
-    background-color: var(--brand);
     font-family: var(--circular);
     padding: 9.5px 0 ;
-
 }
 .search_box form{
     position: relative;
@@ -193,7 +195,7 @@ input[type=text]{
     text-transform: uppercase;
     padding-bottom: 30px;
     padding-top: 135px;
-    border: 1px solid var(--brand);
+    /* border: 1px solid var(--brand); */
 }
 .banner_content .main_heading{
     background-image: url('../img/images/fancy-bg.png');
@@ -201,7 +203,10 @@ input[type=text]{
     background-repeat: no-repeat;
     background-size: 100%;
     padding-bottom: 10px;
-    border: 1px solid var(--brand);
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    /* border: var(--border); */
 }
 .banner_content .main_heading h1{
     font-size: 60px;
@@ -209,6 +214,7 @@ input[type=text]{
     font-weight: 900;
     font-family: var(--playfair);
     text-align: center;
+    
 }
 /* .banner_content .main_heading .circle_text{} */
 
@@ -219,7 +225,7 @@ input[type=text]{
     font-family: var(--circular);
     text-align: center;
     padding-bottom: 10px;
-    border: 1px solid var(--brand);
+    /* border: 1px solid var(--brand); */
 }
 .banner_content h4{
     font-size: 13px;
@@ -227,7 +233,7 @@ input[type=text]{
     font-family: var(--circular);
     text-align: center;
     padding-bottom: 10px;
-    border: 1px solid var(--brand);
+    /* border: var(--border); */
 }
 .banner_content h4 span{
     font-size: 24px;
@@ -239,6 +245,7 @@ input[type=text]{
 }
 .banner_content .btn_center{
     text-align: center;
+    padding-bottom: 150px;
 }
 
 /* ********************************* */
