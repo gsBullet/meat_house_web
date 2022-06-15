@@ -186,7 +186,7 @@ input[type=text]{
     background-position: center center;
     background-repeat: no-repeat;
 }
-/* .banner_content{} */
+
 .banner_content h5{
     font-size: 14px;
     color: var(--brand);
@@ -195,7 +195,6 @@ input[type=text]{
     text-transform: uppercase;
     padding-bottom: 30px;
     padding-top: 135px;
-    /* border: 1px solid var(--brand); */
 }
 .banner_content .main_heading{
     background-image: url('../img/images/fancy-bg.png');
@@ -206,7 +205,6 @@ input[type=text]{
     width: 100%;
     max-width: 600px;
     margin: auto;
-    /* border: var(--border); */
 }
 .banner_content .main_heading h1{
     font-size: 60px;
@@ -216,7 +214,7 @@ input[type=text]{
     text-align: center;
     
 }
-/* .banner_content .main_heading .circle_text{} */
+
 
 .banner_content p{
     font-size: 14px;
@@ -225,7 +223,6 @@ input[type=text]{
     font-family: var(--circular);
     text-align: center;
     padding-bottom: 10px;
-    /* border: 1px solid var(--brand); */
 }
 .banner_content h4{
     font-size: 13px;
@@ -233,7 +230,7 @@ input[type=text]{
     font-family: var(--circular);
     text-align: center;
     padding-bottom: 10px;
-    /* border: var(--border); */
+    
 }
 .banner_content h4 span{
     font-size: 24px;
