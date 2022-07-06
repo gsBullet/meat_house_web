@@ -681,7 +681,7 @@ input[type=text] {
 
 
 .establish_part{
-    background-image: url('../assects/img/establish/establishment.png');
+    background-image: url('../img/establish/establishment.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -717,7 +717,7 @@ input[type=text] {
 /* ********************************** */
 
 .meat_house_story{
-    background-image: url('../assects/img/meat_house_sstory/history.png');
+    background-image: url('../img/meat_house_sstory/history.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 750px;
