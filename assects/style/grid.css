@@ -2,9 +2,9 @@
     --fixed_width: 8.3333333333;
 }
 .container{
-    width: 1320px;
+    width: 1220px;
     margin: 0 auto;
-    border: 2px solid brown;
+    border: 1px solid brown;
 }
 .row{
     display: flex;
