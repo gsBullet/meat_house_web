@@ -365,34 +365,41 @@ input[type=text] {
 #gallery {
     text-align: center;
 }
-.gallery{
+
+.gallery {
     padding: 10px 40px;
     padding-bottom: 0px;
 }
-.g1,.g2{
+
+.g1,
+.g2 {
     padding-right: 30px;
     /* border: var(--border); */
 }
-.g2{
+
+.g2 {
     height: 100%;
 }
-.g2_sub{
+
+.g2_sub {
     padding-bottom: 30px;
 }
-.gallary_bottom_part{
+
+.gallary_bottom_part {
     /* padding-top: 15px; */
     border: var(--border);
 }
-.seasonal_special{
+
+.seasonal_special {
     position: relative;
     height: 100%;
-    
+
 }
 
 .seasonal_special img {
     width: 100%;
     height: 100%;
-    
+
 }
 
 .seasonal_special .content {
@@ -430,26 +437,28 @@ input[type=text] {
     border-bottom: 1px solid var(--brand);
     font-weight: bold;
 }
-.gallary_top_part{
+
+.gallary_top_part {
     /* border: var(--border); */
     height: 100%;
 }
-.gallary_top_part img{
+
+.gallary_top_part img {
     width: 100%;
     height: 100%;
     padding-right: 25px;
 }
 
-.dried_aged_beef{
+.dried_aged_beef {
     position: relative;
     padding-left: 5px;
     /* border: var(--border); */
 }
 
-.dried_aged_beef img{
+.dried_aged_beef img {
     width: 100%;
     height: 100%;
-    
+
 }
 
 .dried_aged_beef .dried_aged_content {
@@ -486,12 +495,13 @@ input[type=text] {
     height: 100%;
 }
 
-.speces_flavours .flavours_img{
+.speces_flavours .flavours_img {
     padding-right: 5px;
     width: 100%;
     overflow: hidden;
     /* border: var(--border); */
 }
+
 .speces_flavours .spices_content {
     position: absolute;
     top: 40px;
@@ -525,18 +535,20 @@ input[type=text] {
     font-weight: bold;
 
 }
+
 /* .choose_box{
     background-image: url('/assects/img/gallery/g5.png');
     background-size: cover;
     background-position: top center;
 } */
 
-.choose_box{
+.choose_box {
     position: relative;
     padding-left: 25px;
     height: 100%;
 }
-.choose_box .choose_box_img{
+
+.choose_box .choose_box_img {
     overflow: hidden;
 }
 
@@ -566,12 +578,13 @@ input[type=text] {
     border-bottom: 1px solid var(--brand);
     font-weight: bold;
 }
-.fresh_part{
+
+.fresh_part {
     width: 100%;
     height: 100%;
 }
 
-.fresh_part img{
+.fresh_part img {
     width: 100%;
     height: 100%;
 }
@@ -585,16 +598,18 @@ input[type=text] {
 /* common heading part  start*/
 /* **************** */
 
-.common_heading{
+.common_heading {
     /* border: var(--border); */
     text-align: center;
     padding: 60px 0;
     padding-bottom: 50px;
 }
-.icon{
+
+.icon {
     height: 15px;
 }
-.heading4{
+
+.heading4 {
     font-size: 13px;
     padding: 20px 0px;
     color: var(--orange);
@@ -602,13 +617,15 @@ input[type=text] {
     text-transform: uppercase;
     /* border: var(--border); */
 }
-.heading2{
+
+.heading2 {
     font-family: var(--playfair);
     font-size: 50px;
     color: var(--brand);
     text-transform: capitalize;
 }
-.heading3{
+
+.heading3 {
     font-family: var(--playfair);
     text-transform: capitalize;
     padding: 20px 0px;
@@ -617,7 +634,8 @@ input[type=text] {
     font-weight: normal;
     /* border: var(--border); */
 }
-.paragraph_item{
+
+.paragraph_item {
     padding-top: 10px;
     margin: 0 auto;
     width: 900px;
@@ -637,28 +655,33 @@ input[type=text] {
 /* ********************************** */
 
 
-.reason_list{
+.reason_list {
     text-align: center;
     padding-bottom: 65px;
 }
-.reason_list ul{
+
+.reason_list ul {
     display: flex;
     flex-wrap: wrap;
     /* flex-direction: row; */
     justify-content: space-around;
 }
-.reason_list ul li{
+
+.reason_list ul li {
     padding-bottom: 30px;
 }
-.reason_list ul li a{
+
+.reason_list ul li a {
     display: block;
     text-align: center;
 }
-.reason_list ul li a img{
+
+.reason_list ul li a img {
     height: 100px;
     display: block;
 }
-.reason_list ul li a span{
+
+.reason_list ul li a span {
     padding-top: 25px;
     text-transform: uppercase;
     font-size: 14px;
@@ -680,7 +703,7 @@ input[type=text] {
 /* ********************************** */
 
 
-.establish_part{
+.establish_part {
     background-image: url('../img/establish/establishment.png');
     background-size: cover;
     background-position: center center;
@@ -688,10 +711,12 @@ input[type=text] {
     height: 100%;
     padding: 40px 0px;
 }
-.establish_part .heading4{
+
+.establish_part .heading4 {
     padding: 15px 0px;
 }
-.establish_part .paragraph_item{
+
+.establish_part .paragraph_item {
     width: 470px;
     /* border: var(--border); */
     margin: 0;
@@ -699,10 +724,11 @@ input[type=text] {
     padding-bottom: 20px;
 }
 
-.establish_part .heading3{
+.establish_part .heading3 {
     padding: 12px 0px;
 }
-.establish_part a{
+
+.establish_part a {
     text-transform: uppercase;
 }
 
@@ -716,100 +742,169 @@ input[type=text] {
 /*****     meat house story part start  ****/
 /* ********************************** */
 
-.meat_house_story{
+.meat_house_story {
     background-image: url('../img/meat_house_sstory/meat_H_story.png');
     background-size: cover;
+    width: 100%;
+    overflow: hidden;
     background-repeat: no-repeat;
-    height: 700px;
-    /* width: 100%; */
     padding: 90px 40px;
     position: relative;
-   
+
 }
+
 /* .sroty_defination{
      border: var(--border);
      
 } */
-.sroty_defination .heading3{
-   
+.sroty_defination .heading3 {
     text-transform: unset;
 }
-.sroty_defination .grass_fed{
+
+.sroty_defination .grass_fed_details .grass_fed {
     padding-top: 35px;
-}
-.sroty_defination .grass_fed .grass_square{
-    text-align: center;
-    line-height: 50px;
-    color: var(--off_white);
-    width: 50px;
-    height: 50px;
-    background-color: var(--brand);
-    /* border: var(--border); */
-    
-}
-.sroty_defination .grass_fed .grass_fed_definition{
-    width: 400px;
-    padding-left: 50px;
-    /* border: var(--border); */
-    /* overflow: hidden; */
-}
-.sroty_defination .grass_fed .grass_fed_definition .paragraph_item{
-    width: 500px;
-}
-.sroty_defination .grass_fed .carbon_negative{
-    border-top: 1px solid var(--off_white);
-    padding: 30px 0px;
-    width: 600px;
+    padding-bottom: 30px;
     border-bottom: 1px solid var(--off_white);
 }
-.sroty_defination .grass_fed .carbon_negative .carbon_square{
+
+.sroty_defination .grass_fed_details .grass_square button {
+    border: 0;
+    outline: 0;
+    background-color: none;
+}
+
+.sroty_defination .grass_fed_details .grass_square button i {
     text-align: center;
     line-height: 50px;
     color: var(--off_white);
     width: 50px;
     height: 50px;
-    display: inline-block;
     border: 1px solid var(--off_white);
-    /* background-color: var(--off_white); */
+    /* background-color: var(--brand); */
 }
-.sroty_defination .grass_fed .carbon_negative_heading{
-    display: inline-block;
-    padding-left: 40px;
+
+.sroty_defination .grass_fed_details .grass_square button i.active {
+    background-color: var(--brand);
 }
-.sroty_defination .grass_fed .no_chemicals{
+
+.sroty_defination .grass_fed_details .grass_fed_definition {
+    width: 500px;
+    padding-left: 30px;
+}
+
+.sroty_defination .grass_fed_details .grass_fed_definition p {
+    width: 100%;
+    display: none;
+
+}
+
+.sroty_defination .grass_fed_details .grass_fed_definition p.active {
+    display: block;
+}
+
+.sroty_defination .grass_fed_details .carbon_negative {
+    padding: 30px 0px;
+    border-bottom: 1px solid var(--off_white);
+}
+
+.sroty_defination .grass_fed_details .carbon_negative .carbon_square button {
+    border: 0;
+    outline: 0;
+    background-color: none;
+}
+
+.sroty_defination .grass_fed_details .carbon_negative .carbon_square button i{
+    text-align: center;
+    line-height: 50px;
+    color: var(--off_white);
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--off_white);
+
+}
+
+.sroty_defination .grass_fed_details .carbon_negative .carbon_square button i.active{
+    background-color: var(--brand);
+    border: var(--brand);
+    color: var(--off_white);
+}
+
+.sroty_defination .grass_fed_details .carbon_negative .carbon_negative_heading {
+    width: 500px;
+    padding-left: 30px;
+}
+
+.sroty_defination .grass_fed_details .carbon_negative .carbon_negative_heading p {
+    width: 100%;
+    display: none;
+}
+
+.sroty_defination .grass_fed_details .carbon_negative .carbon_negative_heading p.active {
+    display: block;
+
+}
+
+.sroty_defination .grass_fed_details .no_chemicals {
     padding-top: 30px;
+    width: 600px;
+    /* border: var(--border); */
 }
-.sroty_defination .grass_fed .no_chemicals .chemicals_square{
+
+.sroty_defination .grass_fed_details .no_chemicals .chemicals_square button {
+    border: 0;
+    outline: 0;
+    background-color: none;
+}
+
+.sroty_defination .grass_fed_details .no_chemicals .chemicals_square button i {
     text-align: center;
     line-height: 50px;
     color: var(--off_white);
     width: 50px;
     height: 50px;
-    display: inline-block;
     border: 1px solid var(--off_white);
 }
-.sroty_defination .grass_fed .no_chemicals .no_chemicals_heading{
-    display: inline-block;
-    padding-left: 40px;
+
+.sroty_defination .grass_fed_details .no_chemicals .chemicals_square button i.active{
+    background-color: var(--brand);
+    border: var(--brand);
+    color: var(--off_white);
 }
-.grass_heading{
+
+.sroty_defination .grass_fed_details .no_chemicals .no_chemicals_heading {
+    padding-left: 30px;
+    width: 500px;
+}
+
+.sroty_defination .grass_fed_details .no_chemicals .no_chemicals_heading p {
+    width: 100%;
+    display: none;
+}
+
+.sroty_defination .grass_fed_details .no_chemicals .no_chemicals_heading p.active {
+    display: block;
+}
+
+.grass_heading {
     color: var(--brand);
     font-family: var(--playfair);
     font-size: 21px;
     line-height: 50px;
     text-transform: capitalize;
 }
-.meat_h_story_img{
+
+.meat_h_story_img {
     height: 600px;
     width: 400px;
     position: absolute;
     top: 90px;
     right: 100px;
 }
-.meat_h_story_img img{
+
+.meat_h_story_img img {
     width: 100%;
     height: 100%;
-    
+
 }
 
 /* ********************************* */
