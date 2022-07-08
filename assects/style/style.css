@@ -594,60 +594,6 @@ input[type=text] {
 /*            gallery part end          */
 /* ********************************** */
 
-/* ************* */
-/* common heading part  start*/
-/* **************** */
-
-.common_heading {
-    /* border: var(--border); */
-    text-align: center;
-    padding: 60px 0;
-    padding-bottom: 50px;
-}
-
-.icon {
-    height: 15px;
-}
-
-.heading4 {
-    font-size: 13px;
-    padding: 20px 0px;
-    color: var(--orange);
-    font-family: var(--circular);
-    text-transform: uppercase;
-    /* border: var(--border); */
-}
-
-.heading2 {
-    font-family: var(--playfair);
-    font-size: 50px;
-    color: var(--brand);
-    text-transform: capitalize;
-}
-
-.heading3 {
-    font-family: var(--playfair);
-    text-transform: capitalize;
-    padding: 20px 0px;
-    color: var(--brand);
-    font-style: italic;
-    font-weight: normal;
-    /* border: var(--border); */
-}
-
-.paragraph_item {
-    padding-top: 10px;
-    margin: 0 auto;
-    width: 900px;
-    font-size: 14px;
-    color: var(--paragraph_color);
-    font-family: var(--circular);
-}
-
-
-/* ************* */
-/* common heading part end */
-/* **************** */
 
 
 /* ********************************* */
@@ -813,7 +759,7 @@ input[type=text] {
     background-color: none;
 }
 
-.sroty_defination .grass_fed_details .carbon_negative .carbon_square button i{
+.sroty_defination .grass_fed_details .carbon_negative .carbon_square button i {
     text-align: center;
     line-height: 50px;
     color: var(--off_white);
@@ -823,7 +769,7 @@ input[type=text] {
 
 }
 
-.sroty_defination .grass_fed_details .carbon_negative .carbon_square button i.active{
+.sroty_defination .grass_fed_details .carbon_negative .carbon_square button i.active {
     background-color: var(--brand);
     border: var(--brand);
     color: var(--off_white);
@@ -865,7 +811,7 @@ input[type=text] {
     border: 1px solid var(--off_white);
 }
 
-.sroty_defination .grass_fed_details .no_chemicals .chemicals_square button i.active{
+.sroty_defination .grass_fed_details .no_chemicals .chemicals_square button i.active {
     background-color: var(--brand);
     border: var(--brand);
     color: var(--off_white);
@@ -910,3 +856,259 @@ input[type=text] {
 /* ********************************* */
 /*****    meat house story part end  ****/
 /* ********************************** */
+
+
+
+
+
+/* ********************************* */
+/*****    counter part start  ****/
+/* ********************************** */
+#counter{
+    background-color: var(--brand);
+}
+.counter_list {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between; 
+    justify-content: space-around;
+    width: 800px;
+    margin: 0 auto;
+    padding: 130px 0px;
+}
+.counter_list .item{
+    text-align: center;
+    color: var(--white);
+    text-transform: capitalize;
+}
+
+.counter_list .item .number{
+    font-size: 60px;
+    font-family: var(--playfair);
+    /* border: var(--border); */
+}
+
+
+.counter_list .item .text{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    color: var(--white);
+    font-family: var(--playfair);
+    z-index: 999;
+    position: relative;
+}
+.counter_list .item .text::after{
+    content: '';
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    background-color: var(--orange);
+    bottom: -10px;
+    left: -20px;
+    z-index: -1;
+}
+
+/* ********************************* */
+/*****   counter part end  ****/
+/* ********************************** */
+
+
+
+
+
+/* ********************************* */
+/*****   inside the box part start  ****/
+/* ********************************** */
+#boxer_option{
+    padding: 100px 0px;
+}
+.headings_option{
+    text-align: center;
+    padding-bottom: 100px;
+    /* border: var(--border); */
+}
+.box_header{
+    font-size: 16px;
+    color: var(--brand);
+    font-weight: bold;
+    font-family: var(--playfair);
+}
+.inside_the_box{
+    width:  calc(var(--fixed_width)*9%);
+    height: 400px;
+    background-color: var(--orangelite);
+    margin: 0 auto;
+    position: relative;
+}
+
+.inside_the_box .box_img img{
+    width: 250px;
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.inside_the_box .easy_recipes{
+    width:  calc(var(--fixed_width)*3%);
+    position: absolute;
+    top: 140px;
+    left: 50px;
+    
+}
+.inside_the_box .easy_recipes .paragraph_item{
+    width: 100%;
+    text-transform: unset;
+}
+.inside_the_box .no_contracts{
+    width:  calc(var(--fixed_width)*3%);
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.inside_the_box .no_contracts .paragraph_item{
+    width: 100%;
+    text-transform: unset;
+}
+.inside_the_box .fresh_product{
+    width:  calc(var(--fixed_width)*3.5%);
+    position: absolute;
+    top: 140px;
+    right: 50px;
+
+}
+.inside_the_box .fresh_product .paragraph_item{
+    width: 100%;
+    text-transform: unset;
+}
+
+.inside_the_box .garlic{
+    width: 70px;
+    position: absolute;
+    left: -3%;
+    bottom: 30px;
+}
+.inside_the_box .garlic img{
+    width: 100%;
+}
+.inside_the_box .wheat{
+    width:  calc(var(--fixed_width)*2%);
+    position: absolute;
+    top: 30px;
+    right: 80px;
+}
+.inside_the_box .wheat img{
+    width: 100%;
+}
+.inside_the_box .asset2{
+    width:  calc(var(--fixed_width)*1%);
+    position: absolute;
+    bottom: 0px;
+    right: 200px;
+
+}
+.inside_the_box .asset2 img{
+    width: 100%;
+}
+.inside_the_box .shape1{
+    width:  calc(var(--fixed_width)*2%);
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    transform: rotate(-20deg);
+}
+.inside_the_box .shape1 img{
+    width: 100%;
+}
+.inside_the_box .shape2{
+    width:  calc(var(--fixed_width)*1.5%);
+    position: absolute;
+    top: 60px;
+    right: 30%;
+    transform: rotate(20deg);
+}
+.inside_the_box .shape2 img{
+    width: 100%;
+}
+.inside_the_box .shape3{
+    width:  calc(var(--fixed_width)*.5%);
+    position: absolute;
+    top: 160px;
+    right: 45%;
+    transform: rotate(0deg);
+}
+.inside_the_box .shape3 img{
+    width: 100%;
+}
+/* ********************************* */
+/*****   inside the box part end  ****/
+/* ********************************** */
+
+
+
+
+/* ********************************* */
+/*****   popular product part start  ****/
+/* ********************************** */
+.products_list{
+    padding-left: 150px;
+}
+.product_list_heading h3{
+    font-family: var(--playfair);
+    font-size: 28px;
+    line-height: 30px;
+    color: var(--brand);
+    font-weight: bold;
+}
+
+.product_item{
+    padding: 60px 0px;
+    margin-right: 30px;
+    /* border: 1px solid blueviolet; */
+    
+}
+.product_item .img{
+    width: 230px;
+    height: 230px;
+}
+.product_item .img img{
+    width: 100%;
+}
+.product_item h4{
+    font-family: var(--playfair);
+    color: var(--brand);
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.product_item h5{
+    font-family: var(--circular);
+    font-size: 13px;
+    line-height: 22px;
+    color: var(--off_white);
+    font-weight: normal;
+    padding: 20px 0px;
+}
+.product_item h6{
+    border-top: 1px solid var(--off_white);
+}
+
+.product_item .add_to_card .btn_outline{
+    padding: 10px 20px;
+}
+.add_to_card a{
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* ********************************* */
+/*****   popular product part end  ****/
+/* ********************************** */
+
+
+

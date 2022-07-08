@@ -9,10 +9,11 @@
 :root{
     /* color variable */
     --brand: #0d354f;
-    --orange: #dec7b0;
+    --orangelite: #dec7b0;
     --paragraph_color: #727272;
     --white: #ffffff;
     --off_white: #A6AEB5;
+    --orange: #F6A25C;
 
     /* font variable  */
     --circular: 'Circular Std';
@@ -70,11 +71,72 @@ p{
     background: var(--brand);
     color: var(--white);
 }
-.button{
-    text-align: center;
-    line-height: 50px;
-    color: var(--off_white);
-    width: 50px;
-    height: 50px;
+
+input{
+    width: 45px;
+    height: 35px;
+    color: var(--brand);
+    line-height: 45px;
+    padding-left: 8px;
     border: 1px solid var(--off_white);
 }
+
+.add_to_card{
+    /* border: 1px solid blueviolet; */
+    text-align: center;
+}
+
+/* ************* */
+/* common heading part  start*/
+/* **************** */
+
+.common_heading{
+    /* border: var(--border); */
+    text-align: center;
+    padding: 60px 0;
+    padding-bottom: 50px;
+}
+
+.icon {
+    height: 15px;
+}
+
+.heading4 {
+    font-size: 13px;
+    padding: 20px 0px;
+    color: var(--orange);
+    font-family: var(--circular);
+    text-transform: uppercase;
+    /* border: var(--border); */
+}
+
+.heading2 {
+    font-family: var(--playfair);
+    font-size: 50px;
+    color: var(--brand);
+    text-transform: capitalize;
+}
+
+.heading3 {
+    font-family: var(--playfair);
+    text-transform: capitalize;
+    padding: 20px 0px;
+    color: var(--brand);
+    font-style: italic;
+    font-weight: normal;
+    /* border: var(--border); */
+}
+
+.paragraph_item {
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 900px;
+    font-size: 14px;
+    color: var(--paragraph_color);
+    font-family: var(--circular);
+}
+
+
+/* ************* */
+/* common heading part end */
+/* **************** */
