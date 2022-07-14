@@ -136,7 +136,35 @@ input{
     font-family: var(--circular);
 }
 
+.footer_heading{
+    font-family: var(--playfair);
+    font-size: 21px;
+    color: var(--white);
+    line-height: 22px;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+}
+
 
 /* ************* */
 /* common heading part end */
 /* **************** */
+
+
+.card_view{
+    height: 170px ;
+    width: 320px;
+    background-color: var(--brand);
+    position: relative;
+}
+.card_view::after{
+    content: '';
+    position: absolute;
+    background: var(--brand);
+    height: 30px;
+    width: 30px;
+    bottom: -6px;
+    left: 50%;
+    transform: rotate(135deg);
+    z-index: -1;
+}
