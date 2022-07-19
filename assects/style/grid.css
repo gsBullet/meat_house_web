@@ -4,7 +4,7 @@
 .container{
     width: 1320px;
     margin: 0 auto;
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
 }
 .row{
     display: flex;
